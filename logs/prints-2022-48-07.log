@@ -1,0 +1,5 @@
+23-48-51-542 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler--Dio.netty.recycler.chunkSize: 32
+23-48-51-549 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler--Dio.netty.recycler.blocking: false
+23-48-52-815 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli-brotli4j not in the classpath; Brotli support will be unavailable.
+23-48-52-959 [main] DEBUG io.netty.util.internal.ThreadLocalRandom--Dio.netty.initialSeedUniquifier: 0x73b6737835a98bb2
+23-48-54-698 [main] INFO  Testing.Main-returning dataprovider object

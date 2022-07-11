@@ -1,0 +1,5 @@
+23-46-59-926 [main] DEBUG io.netty.util.internal.PlatformDependent-Platform: Windows
+23-46-59-931 [main] DEBUG io.netty.util.internal.PlatformDependent--Dio.netty.maxDirectMemory: -1 bytes
+23-46-59-932 [main] DEBUG io.netty.util.internal.PlatformDependent--Dio.netty.uninitializedArrayAllocationThreshold: -1
+23-46-59-934 [main] DEBUG io.netty.util.internal.CleanerJava9-java.nio.ByteBuffer.cleaner(): available
+23-46-59-934 [main] DEBUG io.netty.util.internal.PlatformDependent--Dio.netty.noPreferDirect: false

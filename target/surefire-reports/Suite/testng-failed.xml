@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Resources.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Login Page Main(failed)" verbose="0">
+    <classes>
+      <class name="Testing.Main">
+        <methods>
+          <include name="driverclose"/>
+          <include name="tsetingmethod"/>
+          <include name="MainExecution"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- Testing.Main -->
+    </classes>
+  </test> <!-- Login Page Main(failed) -->
+  <test thread-count="5" name="Forgot Password Main2(failed)" verbose="0">
+    <classes>
+      <class name="Testing.Main2">
+        <methods>
+          <include name="tsetingmethod"/>
+          <include name="driverclose"/>
+          <include name="beforetest"/>
+          <include name="MainExecution"/>
+        </methods>
+      </class> <!-- Testing.Main2 -->
+    </classes>
+  </test> <!-- Forgot Password Main2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
