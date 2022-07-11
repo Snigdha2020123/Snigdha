@@ -36,7 +36,7 @@ public class Main extends DriverInitialization {
 	{
 		driver=callwebdriver();
 		driver.get(prop.getProperty("url"));
-		System.out.println("welcome");
+		
 	}
 	@Test(dataProvider="getData")
 	public void MainExecution(String uid,String pwd) throws InterruptedException
